@@ -13,4 +13,4 @@ disc.o: disc.cpp
 
 test:
 	$(CC) $(CFLAGS) test.cpp -o test 
-
+#	launch test.exe
