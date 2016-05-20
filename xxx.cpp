@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h> // getch()
 #include <math.h>
-#include <windows.h>
 #include "h.h"
 //#include "disc.cpp"
 int main()
@@ -21,14 +19,11 @@ int main()
 		x1 = 2*c/(-b-sqrt(disc(a, b, c)));
 		x2 = 2*c/(-b+sqrt(disc(a, b, c)));
 		printf("\n\nx1 = %.3f, x2 = %.3f", x1, x2);
-		getch();
 	}
 	
 	else
 	{
 		printf("\n\nD = %.0f", disc(a, b, c));
-		getch();
-		exit(0);
 	}
 	
 	return 0;
