@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h> // getch()
 #include <math.h>
-#include <windows.h>
 //#include "h.h"
 #include "disc.cpp"
 
