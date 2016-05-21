@@ -11,6 +11,6 @@ main.o: main.cpp
 disc.o: disc.cpp
 	$(CC) $(CFLAGS) disc.cpp
 
-test:
-	$(CC) $(CFLAGS) test.cpp -o test 
-#	launch test.exe
+test: test.cpp
+	$(CC) test.cpp -o test
+	./test
