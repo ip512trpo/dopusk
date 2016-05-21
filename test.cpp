@@ -35,5 +35,5 @@ int main()
 	}
 	fclose(discOut);
 	printf("Done");
-	return 154;
+	return 0;
 }
